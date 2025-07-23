@@ -1,5 +1,6 @@
-import React from "react";
 import bg from "../assets/bgOne-removebg-preview.png";
+import { BiLogoGmail } from "react-icons/bi";
+import { FaPhoneAlt } from "react-icons/fa";
 
 const Banner = () => {
   return (
@@ -14,12 +15,14 @@ const Banner = () => {
             <h2 className="text-white text-[40px] font-semibold font-funnel">
               Hello, I'm Robi,
             </h2>
-            <h1 className="flex flex-co leading[80px] ml[40px] text-white text-[60px] font-roboto font-bold">
+            <h1 className="flex  text-white text-[60px] font-roboto font-bold">
               FrontEnd <span className="ml-10">Developer</span>
             </h1>
-            <div className="gitHub-LinkeDin-cv flex mt-9 ml-20 gap-7 justify-center">
+            <div className="gitHub-LinkeDin-cv flex mt-9  gap-7 justify-center">
               <a
-                target="blank"
+                href="https://github.com/RobiMankhinStart"
+                target="_blank"
+                rel="noopener noreferrer"
                 class="group cursor-pointer flex justify-center items-center gap-2 group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-neutral-900 duration-500 hover:duration-500 underline underline-offset-2 hover:underline hover:underline-offset-4 origin-left hover:decoration-2 hover:text-neutral-300 relative bg-neutral-900 px-10 py-3 border text-left p-3 text-gray-50 text-base font-bold rounded-lg overflow-hidden after:absolute after:z-10 after:w-12 after:h-12 after:content[''] after:bg-sky-900 after:-left-8 after:top-8 after:rounded-full after:blur-lg hover:after:animate-pulse"
               >
                 <svg
@@ -39,7 +42,12 @@ const Banner = () => {
                 </svg>
                 Github
               </a>
-              <a class="group cursor-pointer hover:bg-sky-600 relative bg-sky-700 rounded text-neutral-50 duration-500 font-bold flex justify-start gap-2 items-center p-2 pr-6">
+              <a
+                href="https://www.linkedin.com/in/robi-mankhin-608b7b271/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="group cursor-pointer hover:bg-sky-600 relative bg-sky-700 rounded text-neutral-50 duration-500 font-bold flex justify-start gap-2 items-center p-2 pr-6"
+              >
                 <svg
                   class="w-8 h-8 fill-neutral-50"
                   height="100"
@@ -58,16 +66,14 @@ const Banner = () => {
                 </div>
               </a>
             </div>
-            {/* <div className="cv mt-6 ml-[40px]">
-                <div class=" flex flex-col ml-[44px] bg-[#193f80] w-44 p-2 rounded-3xl font-poppins gap-1">
-                  <a class="bg-[#225bc3] hover:bg-[#2564da] hover:scale-[1.065] hover:translate-y-[-7px] hover:rounded-[23px] hover:rounded-bl-none hover:rounded-br-none px-6 py-2 rounded-2xl rounded-bl-lg rounded-br-lg transition-all text-center text-[#d8e5f9] hover:text-[#a8c1f0] font-medium cursor-pointer">
-                    Download CV
-                  </a>
-                  <a class="bg-[#5350c6] hover:bg-secondary-600 hover:scale-[1.065] hover:translate-y-[7px] hover:rounded-[23px] hover:rounded-tl-none hover:rounded-tr-none px-6 py-2 rounded-2xl rounded-tl-lg rounded-tr-lg transition-all text-center text-[#d8e5f9] hover:text-[#b3aaee] font-medium cursor-pointer">
-                    View CV
-                  </a>
-                </div>
-              </div> */}
+            <div class="flex ml-[140px] mt-6 flex-col bg-[#193f80] w-64 p-2 rounded-lg gap-1">
+              <a class="bg-[#225bc3] flex items-center justify-center gap-2 font-roboto hover:bg-[#2564da] hover:scale-[1.065] hover:translate-y-[-7px] hover:rounded-lg hover:rounded-bl-none hover:rounded-br-none px-6 py-2 rounded-2xl rounded-bl-lg rounded-br-lg transition-all text-center text-[#d8e5f9] hover:text-[#a8c1f0] font-medium cursor-pointer">
+                <BiLogoGmail />: robileo49@gmail.com
+              </a>
+              <a class="bg-[#5350c6] flex items-center justify-center gap-2 font-roboto hover:bg-secondary-600 hover:scale-[1.065] hover:translate-y-[7px] hover:rounded-lg hover:rounded-tl-none hover:rounded-tr-none px-6 py-2 rounded-2xl rounded-tl-lg rounded-tr-lg transition-all text-center text-[#d8e5f9] hover:text-[#b3aaee] font-medium cursor-pointer">
+                <FaPhoneAlt /> : +8801851228651
+              </a>
+            </div>
           </div>
           <div className="rightSide">
             {/* <!-- From Uiverse.io by janisar-hyder -->  */}

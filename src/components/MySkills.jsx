@@ -19,7 +19,7 @@ const MySkills = () => {
           <h2 className="text-[38px] font-bold font-funnel text-white">
             Technologies & Expertise
           </h2>
-          <div className="flex gap-14 flex-wrap mt-8">
+          <div className="flex justify-center gap-14 flex-wrap mt-8">
             <div className="text-yellow-300 border border-yellow-300 duration-300 hover:scale-110 shadow-xl shadow-slate-400 p-2 rounded-lg ">
               <TiHtml5 className="md:size-[130px] size-[100px] " />
             </div>
