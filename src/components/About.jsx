@@ -79,6 +79,22 @@ const About = () => {
           </div>
         </div>
       </div>
+      {/* <div className="marqueeRow"> */}
+      <div className="marquee text-white">
+        <span>
+          Web Development - Web Design - User Interface - React-&nbsp;
+        </span>
+        <span>
+          Web Development - Web Design - User Interface - React-&nbsp;
+        </span>
+        <span>
+          Web Development - Web Design - User Interface - React-&nbsp;
+        </span>
+        <span>
+          Web Development - Web Design - User Interface - React-&nbsp;
+        </span>
+      </div>
+      {/* </div> */}
     </section>
   );
 };

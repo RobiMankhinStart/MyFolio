@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <section
       id="navbar"
-      className="fixed left-0 right-0 z-20 bg-[#ffffff36] py-9 px-2 border border-b-white"
+      className="fixed left-0 right-0 z-20  bg-[#1c1a1fbb] py-9 px-2 border border-b-white"
     >
       <div className="container">
         <div className="containerRow flex items-center justify-between">

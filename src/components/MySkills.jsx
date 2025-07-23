@@ -1,5 +1,11 @@
 import React from "react";
-import { FaCss3Alt, FaFigma, FaGithub, FaReact } from "react-icons/fa";
+import {
+  FaBootstrap,
+  FaCss3Alt,
+  FaFigma,
+  FaGithub,
+  FaReact,
+} from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiRedux } from "react-icons/si";
 import { TbBrandJavascript } from "react-icons/tb";
@@ -22,6 +28,9 @@ const MySkills = () => {
             </div>
             <div className="text-yellow-300 border border-yellow-300 duration-300 hover:scale-110 shadow-xl shadow-slate-400 p-2 rounded-lg ">
               <TbBrandJavascript className="md:size-[130px] size-[100px] " />
+            </div>
+            <div className="text-blue-700 border border-blue-700 duration-300 hover:scale-110 shadow-xl shadow-slate-400 p-2 rounded-lg ">
+              <FaBootstrap className="md:size-[130px] size-[100px] " />
             </div>
             <div className="text-gray-300 border border-gray-300 duration-300 hover:scale-110 shadow-xl shadow-slate-400 p-2 rounded-lg">
               <RiTailwindCssFill className="md:size-[130px] size-[100px] " />

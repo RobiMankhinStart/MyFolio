@@ -6,7 +6,7 @@ const Banner = () => {
     <section
       id="banner"
       // style={{ backgroundImage: `url(${bg})` }}
-      className="h-screen bg-no-repeat bg-cove bg-right-top pt-36"
+      className="h-screen pt-36"
     >
       <div className="container">
         <div className="bannerDiv flex justify-around items-center">
