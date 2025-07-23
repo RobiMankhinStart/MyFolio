@@ -11,8 +11,8 @@ const Navbar = () => {
       <div className="container">
         <div className="containerRow flex items-center justify-between">
           <div className="logo">
-            <h2 className="text-white text-[20px] font-poppins font-bold">
-              Ro <span>Bi</span>
+            <h2 className="text-[#f96902] text-[38px] font-poppins font-bold">
+              Ro<span>Bi</span>
             </h2>
           </div>
           <div className="navOptions ">

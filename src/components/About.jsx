@@ -18,7 +18,7 @@ const About = () => {
               About Me
             </h2>
             <p className="text-[30px] font-semibold font-funnel text-white w-[680px]">
-              I am a motivated and committed individual that is positive about
+              A motivated and committed individual who is positive about
               applying my knowledge and abilities to develop and achieve in the
               technology sector. Building dynamic and effective websites is my
               main focus.
