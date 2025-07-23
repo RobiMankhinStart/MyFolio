@@ -6,6 +6,10 @@
 
 @theme {
   --color-bgOne: rgb(28, 26, 31);
+  --color-bgTwo: rgb(18, 18, 18);
+  --color-bgThree: rgb(27, 27, 27);
+  --color-bgFour: rgb(213, 163, 187);
+  --color-bgFive: rgb(229, 221, 210);
   --font-poppins: "Poppins", sans-serif;
   --font-roboto: "Roboto", sans-serif;
   --font-funnel: "Funnel Display", sans-serif;
@@ -18,12 +22,12 @@
 /* From Uiverse.io by janisar-hyder */
 img {
   display: block;
-  max-width: 60%;
+  max-width: 100%;
 }
 
 .stack {
-  width: 55%;
-  max-width: 400px;
+  width: 80%;
+  max-width: 440px;
   transition: 0.25s ease;
   &:hover {
     transform: rotate(5deg);
@@ -72,7 +76,7 @@ img {
   width: 100%;
   border: 4px solid;
   background-color: #eee;
-  aspect-ratio: 1 / 1;
+  /* aspect-ratio: 1 / 1; */
   position: relative;
 }
 
