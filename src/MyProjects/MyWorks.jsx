@@ -5,13 +5,14 @@ import crud from "../assets/Project_images/ReactCrud.png";
 import plantyx from "../assets/Project_images/plantyX.png";
 import furniture from "../assets/Project_images/furniture.png";
 import marquess from "../assets/Project_images/Marquess.png";
+import nexton from "../assets/Project_images/nexton.png";
 export const MyWorks = [
   {
     id: 1,
-    Image: vTodo,
-    title: "VanillaToDo",
-    liveLink: "https://robimankhinstart.github.io/VanillaToDo/",
-    git: "https://github.com/RobiMankhinStart/VanillaToDo",
+    Image: nexton,
+    title: "Nexton_e_Commerce",
+    liveLink: "https://nexton-e.netlify.app/",
+    git: "https://github.com/RobiMankhinStart/Nexton_-React-",
   },
   {
     id: 7,
@@ -19,6 +20,13 @@ export const MyWorks = [
     title: "The Marquess Estate",
     liveLink: "https://marquessestate.netlify.app/",
     git: "https://github.com/RobiMankhinStart/Contest_Project",
+  },
+  {
+    id: 8,
+    Image: vTodo,
+    title: "VanillaToDo",
+    liveLink: "https://robimankhinstart.github.io/VanillaToDo/",
+    git: "https://github.com/RobiMankhinStart/VanillaToDo",
   },
   {
     id: 2,
