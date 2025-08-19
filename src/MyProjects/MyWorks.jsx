@@ -4,6 +4,7 @@ import guess_it from "../assets/Project_images/guess_it.png";
 import crud from "../assets/Project_images/ReactCrud.png";
 import plantyx from "../assets/Project_images/plantyX.png";
 import furniture from "../assets/Project_images/furniture.png";
+import marquess from "../assets/Project_images/Marquess.png";
 export const MyWorks = [
   {
     id: 1,
@@ -11,6 +12,13 @@ export const MyWorks = [
     title: "VanillaToDo",
     liveLink: "https://robimankhinstart.github.io/VanillaToDo/",
     git: "https://github.com/RobiMankhinStart/VanillaToDo",
+  },
+  {
+    id: 7,
+    Image: marquess,
+    title: "The Marquess Estate",
+    liveLink: "https://marquessestate.netlify.app/",
+    git: "https://github.com/RobiMankhinStart/Contest_Project",
   },
   {
     id: 2,
@@ -23,7 +31,7 @@ export const MyWorks = [
     id: 3,
     Image: guess_it,
     title: "Guess_it",
-    liveLink: "https://github.com/RobiMankhinStart/Guess_it/",
+    liveLink: "https://picknum.netlify.app/",
     git: "https://github.com/RobiMankhinStart/Guess_it/",
   },
   {
