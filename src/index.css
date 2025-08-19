@@ -139,7 +139,7 @@ img {
   font-size: 18px;
   font-weight: 900;
   width: 100%;
-  height: 38px;
+  height: 35px;
   background: #ffffff;
   padding: 5px 12px;
   color: #915757;
@@ -154,7 +154,6 @@ img {
 
 .myinfo_button {
   padding: 5px 10px;
-  margin-top: 10px;
   border: 3px solid #000000;
   box-shadow: 3px 3px 0 #000000;
   font-weight: 750;
@@ -176,4 +175,109 @@ img {
 
 .myinfo_card:hover {
   translate: -6px;
+}
+
+/* .......Hover social buttons ..........  */
+/* From Uiverse.io by adamgiebl */
+.fooBut {
+  transform: rotate(-25deg) skew(25deg);
+  transform-style: preserve-3d;
+  position: relative;
+  list-style: none;
+  width: 108px;
+  height: 32px;
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.fooBut:before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: -5px;
+  width: 100%;
+  height: 10px;
+  background: #2a2a2a;
+  transform: skewX(-41deg);
+}
+
+.fooBut:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -9px;
+  width: 9px;
+  height: 100%;
+  background: #2a2a2a;
+  transform: skewY(-49deg);
+}
+
+.fooBut .fooSpan {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #2a2a2a;
+  color: #fff;
+  font-size: 25px;
+  transition: 1.1s ease-out;
+}
+
+.fooBut:hover .fooSpan {
+  z-index: 1000;
+  transition: 0.3s;
+  color: #fff;
+}
+
+.fooBut:hover .fooSpan:nth-child(5) {
+  transform: translate(40px, -40px);
+  opacity: 1;
+}
+
+.fooBut:hover .fooSpan:nth-child(4) {
+  transform: translate(30px, -30px);
+  opacity: 0.8;
+}
+
+.fooBut:hover .fooSpan:nth-child(3) {
+  transform: translate(20px, -20px);
+  opacity: 0.6;
+}
+
+.fooBut:hover .fooSpan:nth-child(2) {
+  transform: translate(10px, -10px);
+  opacity: 0.4;
+}
+
+.fooBut:hover .fooSpan:nth-child(1) {
+  transform: translate(0px, 0px);
+  opacity: 0.2;
+}
+
+.fooBut:active .fooSpan:nth-child(5) {
+  transform: translate(20px, -20px);
+  opacity: 1;
+}
+
+.fooBut:active .fooSpan:nth-child(4) {
+  transform: translate(15px, -15px);
+}
+
+.fooBut:active .fooSpan:nth-child(3) {
+  transform: translate(10px, -10px);
+}
+
+.fooBut:active .fooSpan:nth-child(2) {
+  transform: translate(5px, -5px);
+}
+
+.fooBut:active .fooSpan:nth-child(1) {
+  transform: translate(0px, 0px);
+}
+
+.fooBut:hover .fooSpan {
+  background: #52e19f;
 }

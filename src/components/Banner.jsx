@@ -1,4 +1,4 @@
-import bg from "../assets/bgOne-removebg-preview.png";
+import bg from "../assets/images/bgOne-removebg-preview.png";
 import { BiLogoGmail } from "react-icons/bi";
 import { FaPhoneAlt } from "react-icons/fa";
 
@@ -66,7 +66,7 @@ const Banner = () => {
                 </div>
               </a>
             </div>
-            <div class="flex ml-[140px] mt-6 flex-col bg-[#193f80] w-64 p-2 rounded-lg gap-1">
+            <div class="flex ml-[160px] mt-6 flex-col bg-[#193f80] w-64 p-2 rounded-lg gap-1">
               <a class="bg-[#225bc3] flex items-center justify-center gap-2 font-roboto hover:bg-[#2564da] hover:scale-[1.065] hover:translate-y-[-7px] hover:rounded-lg hover:rounded-bl-none hover:rounded-br-none px-6 py-2 rounded-2xl rounded-bl-lg rounded-br-lg transition-all text-center text-[#d8e5f9] hover:text-[#a8c1f0] font-medium cursor-pointer">
                 <BiLogoGmail />: robileo49@gmail.com
               </a>

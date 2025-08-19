@@ -4,6 +4,7 @@ import Banner from "../components/Banner";
 import About from "../components/About";
 import MySkills from "../components/MySkills";
 import PortFolio from "../components/PortFolio";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <About />
       <MySkills />
       <PortFolio />
+      <Footer />
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import coverImg from "../assets/bgOne-removebg-preview.png";
+import coverImg from "../assets/images/bgOne-removebg-preview.png";
 import MyInfo from "./MyInfo";
 import cv from "../assets/Robi-cv-01851228651.pdf";
 const About = () => {

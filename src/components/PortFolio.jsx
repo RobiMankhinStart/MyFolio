@@ -5,7 +5,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const PortFolio = () => {
   return (
-    <section id="portFolio" className="mt-10">
+    <section id="portFolio" className="mt-10 pb-12">
       <div className="container">
         <div className="">
           <h2 className="text-[38px] text-center font-bold font-funnel text-white">
