@@ -4,6 +4,7 @@ import MyInfo from "./MyInfo";
 import cv from "../assets/Robi-robileo49@gmail.com(web-developer).pdf";
 const About = () => {
   const [infoDIv, setInfoDiv] = useState(false);
+  console.log(infoDIv);
   return (
     <section id="About" className=" border-t border-t-white">
       <div className="container">
@@ -74,7 +75,7 @@ const About = () => {
                 <span class="absolute top-0 left-0 w-full bg-green-500 duration-500 delay-300 group-hover:-translate-y-full h-full"></span>
                 <span class="absolute delay-300 top-0 left-0 w-full bg-green-500 duration-500 group-hover:translate-y-full h-full"></span>
               </button>
-              {infoDIv && <MyInfo setInfoDiv={setInfoDiv} />}
+              {<MyInfo infoDIv={infoDIv} setInfoDiv={setInfoDiv} />}
             </div>
           </div>
         </div>

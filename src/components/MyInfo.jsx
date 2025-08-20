@@ -1,14 +1,23 @@
 import React from "react";
 import { MdOutlineCancel } from "react-icons/md";
 
-const MyInfo = ({ setInfoDiv }) => {
+const MyInfo = ({ infoDIv, setInfoDiv }) => {
   return (
     <section className="">
       <div
         onClick={() => setInfoDiv(false)}
-        className="fixed z-20 top-0 left-0 right-0 h-screen bg-[#000000b6]"
+        className={`fixed inset-0 z-20 bg-[#000000b6] transition-opacity duration-300
+  ${
+    infoDIv
+      ? "opacity-100 pointer-events-auto"
+      : "opacity-0 pointer-events-none"
+  }`}
       ></div>
-      <div className="rounded-xl fixed top-5 left-[450px] z-30 w-[600px] bg-bgFive px-6 pt-8 pb-14">
+      <div
+        className={`fixed top-5 left-1/2 -translate-x-1/2 z-30 w-[600px] rounded-xl bg-bgFive px-6 pt-8 pb-14 
+  transition-all duration-300 ease-in-out
+  ${infoDIv ? "translate-y-0 opacity-100" : "-translate-y-10 opacity-0"}`}
+      >
         <div class="myinfo_card">
           <div className="myinfo_head">Robi Mankhin</div>
           <div className="myinfo_content">
