@@ -14,7 +14,7 @@ const MyInfo = ({ infoDIv, setInfoDiv }) => {
   }`}
       ></div>
       <div
-        className={`fixed top-5 left-1/2 -translate-x-1/2 z-30 w-[600px] rounded-xl bg-bgFive px-6 pt-8 pb-14 
+        className={`fixed overflow-y-scroll top-2 md:top-5 left-1/2 -translate-x-1/2 z-30 w-[90%] md:w-[600px] rounded-xl bg-bgFive px-6 pt-5 md:pt-8 md:pb-14 pb-8
   transition-all duration-300 ease-in-out
   ${
     infoDIv
@@ -26,47 +26,47 @@ const MyInfo = ({ infoDIv, setInfoDiv }) => {
           <div className="myinfo_head">Robi Mankhin</div>
           <div className="myinfo_content">
             <div className="flex flex-col items-center">
-              <h2 className="font-roboto font-bold text-[30px] text-gray-700">
+              <h2 className="font-roboto font-bold text-[26px] md:text-[30px] text-gray-700">
                 Personal Information
               </h2>
 
-              <div className="flex flex-col gap-1">
+              <div className="flex flex-col gap-1 md:text-[20px] text-[18px]">
                 <div>
-                  <p className="text-[20px] font-funnel font-semibold">
+                  <p className=" font-funnel font-semibold">
                     <span>Name</span> : Robi Mankhin
                   </p>
                 </div>
                 <div>
-                  <p className="text-[20px] font-funnel font-semibold">
+                  <p className=" font-funnel font-semibold">
                     <span>Age</span> : 26
                   </p>
                 </div>
                 <div>
-                  <p className="text-[20px] font-funnel font-semibold">
+                  <p className=" font-funnel font-semibold">
                     <span>Father's Name</span> : Shuvro Dango
                   </p>
                 </div>
                 <div>
-                  <p className="text-[20px] font-funnel font-semibold">
+                  <p className=" font-funnel font-semibold">
                     <span>Mother's Name</span> : Nilotpola Mankhin
                   </p>
                 </div>
                 <div>
-                  <p className="text-[20px] font-funnel font-semibold">
+                  <p className=" font-funnel font-semibold">
                     <span>Gender</span> : male
                   </p>
                 </div>
                 <div>
-                  <div className="text-[20px] font-funnel font-semibold">
+                  <div className=" font-funnel font-semibold">
                     <span>Present Address</span> : Vatara, Badda, Notun
                     Bazar,Dhaka-1212
                   </div>
                 </div>
                 <div className="flex flex-col items-center ">
-                  <h2 className="font-roboto font-bold text-[30px] text-gray-700">
+                  <h2 className="font-roboto font-bold text-[27px] lg:text-[30px] text-gray-700">
                     Education
                   </h2>
-                  <div className="text-[20px] font-funnel font-semibold shadow-lg  p-2 rounded-lg">
+                  <div className="text-[17px] lg:text-[20px] font-funnel font-semibold shadow-lg  p-2 rounded-lg">
                     <h3>
                       Bachelor of Science in Computer Science and Engineering
                       (CSE) (2018-2023)
