@@ -27,7 +27,7 @@ const PortFolio = () => {
                 <h3 className="ml-2 text-center text-white text-lg font-poppins md:text-2xl font-bold">
                   {item.title}
                 </h3>
-                <div className="ml-2 flex items-center justify-center gap gap-10">
+                <div className="ml-2 flex items-center justify-center gap-4   lg:gap-10">
                   <a
                     href={item.liveLink}
                     target="_blank"
