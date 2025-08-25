@@ -16,7 +16,7 @@ const MySkills = () => {
     <section id="skills" className=" pt-6">
       <div className="container">
         <div className="skillsRow flex flex-col items-center">
-          <h2 className="text-[38px] font-bold font-funnel text-white">
+          <h2 className="text-[38px] text-center font-bold font-funnel text-white">
             Technologies & Expertise
           </h2>
           <div className="flex justify-center gap-14 flex-wrap mt-8">

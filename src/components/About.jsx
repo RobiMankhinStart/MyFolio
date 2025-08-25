@@ -6,30 +6,30 @@ const About = () => {
   const [infoDIv, setInfoDiv] = useState(false);
   console.log(infoDIv);
   return (
-    <section id="About" className=" border-t border-t-white">
+    <section className=" border-t pt-14 border-t-white">
       <div className="container">
-        <div className="about_row flex justify-between items-cente">
+        <div className="about_row flex lg:flex-row flex-col justify-between items-center">
           <div className="left">
-            <div className="img">
-              <img src={coverImg} alt="aboutMe-img" />
+            <div className="img lg:w-full w-[300px] bg-amber-200">
+              <img className="w-full" src={coverImg} alt="aboutMe-img" />
             </div>
           </div>
           <div className="right flex flex-col items-center">
-            <h2 className=" mt-14 text-[38px] text-white font-semibold font-roboto">
+            <h2 className="text-[38px] text-white font-semibold font-roboto">
               About Me
             </h2>
-            <p className="text-[30px] font-semibold font-funnel text-white w-[680px]">
+            <p className="text-[30px] font-semibold font-funnel text-white w-[90%] lg:w-[680px]">
               A motivated and committed individual who is positive about
               applying my knowledge and abilities to develop and achieve in the
               technology sector. Building dynamic and effective websites is my
               main focus.
             </p>
-            <div className="flex mt-12 gap-10">
+            <div className="flex ml-4 mt-12 gap-6 lg:gap-10">
               <a
                 href={cv}
                 target="_blank"
                 rel="noopener noreferrer"
-                class="font-funnel cursor-pointer group/download relative flex gap-1 px-8 py-4 bg-[#5c5ee9bd] text-[#f1f1f1] rounded-lg hover:bg-opacity-70 font-semibold shadow-xl active:shadow-inner transition-all duration-300"
+                class="font-funnel cursor-pointer group/download relative flex gap-1 px-5 md:px-8 py-4 bg-[#5c5ee9bd] text-[#f1f1f1] rounded-lg hover:bg-opacity-70 font-semibold shadow-xl active:shadow-inner transition-all duration-300"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +64,7 @@ const About = () => {
               </a>
               <button
                 onClick={() => setInfoDiv(true)}
-                class="rounded-md cursor-pointer relative group overflow-hidden border-2 px-8 py-2 border-green-500"
+                class="rounded-md cursor-pointer relative group overflow-hidden border-2 px-4 md:px-8 py-2 border-green-500"
               >
                 <span class="font-bold text-white text-xl relative z-10 group-hover:text-green-500 duration-500">
                   Personal info
@@ -80,8 +80,8 @@ const About = () => {
           </div>
         </div>
       </div>
-      {/* <div className="marqueeRow"> */}
-      <div className="marquee text-white">
+      {/* <div className="marqueeRow"> font-size: 130px; */}
+      <div className="marquee mt-7 text-white text-[52px] md:text-[80px] lg:text-[130px]">
         <span>
           Web Development - Web Design - User Interface - React-&nbsp;
         </span>

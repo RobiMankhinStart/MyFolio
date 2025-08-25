@@ -16,7 +16,11 @@ const MyInfo = ({ infoDIv, setInfoDiv }) => {
       <div
         className={`fixed top-5 left-1/2 -translate-x-1/2 z-30 w-[600px] rounded-xl bg-bgFive px-6 pt-8 pb-14 
   transition-all duration-300 ease-in-out
-  ${infoDIv ? "translate-y-0 opacity-100" : "-translate-y-10 opacity-0"}`}
+  ${
+    infoDIv
+      ? "translate-y-0 opacity-100 pointer-events-auto"
+      : "-translate-y-10 opacity-0 pointer-events-none"
+  }`}
       >
         <div class="myinfo_card">
           <div className="myinfo_head">Robi Mankhin</div>

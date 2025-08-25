@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+/* smooth scrolling  */
+html {
+  scroll-behavior: smooth;
+}
+
 @utility container {
   margin-inline: auto;
 }
@@ -113,7 +118,7 @@ img {
     transform: translateX(0);
     white-space: nowrap;
     animation: marquee 20s linear infinite;
-    font-size: 130px;
+
     font-family: "Gravitas One", Helvetica, Arial, sans-serif;
     font-weight: 900;
     color: #98c9ff;

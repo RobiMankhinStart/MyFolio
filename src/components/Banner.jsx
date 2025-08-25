@@ -5,20 +5,19 @@ import { FaPhoneAlt } from "react-icons/fa";
 const Banner = () => {
   return (
     <section
-      id="banner"
       // style={{ backgroundImage: `url(${bg})` }}
-      className="h-screen pt-36"
+      className="pt-42 pb-10 border-b border-b-black"
     >
       <div className="container">
-        <div className="bannerDiv flex justify-around items-center">
-          <div className="leftSide">
-            <h2 className="text-white text-[40px] font-semibold font-funnel">
+        <div className="bannerDiv flex flex-col-reverse lg:flex-row lg:justify-around items-center">
+          <div className="leftSide mt-6">
+            <h2 className=" text-white text-[40px] font-semibold font-funnel">
               Hello, I'm Robi,
             </h2>
-            <h1 className="flex  text-white text-[60px] font-roboto font-bold">
-              FrontEnd <span className="ml-10">Developer</span>
+            <h1 className="lg: w-full lg:ml-0 flex flex-col text-white text-[60px] font-roboto font-bold">
+              FrontEnd <span className="lg:ml-10 ml-0 ">Developer</span>
             </h1>
-            <div className="gitHub-LinkeDin-cv flex mt-9  gap-7 justify-center">
+            <div className="gitHub-LinkeDin-cv flex lg:flex-row flex-col items-center mt-9  gap-7 justify-center">
               <a
                 href="https://github.com/RobiMankhinStart"
                 target="_blank"
@@ -66,7 +65,7 @@ const Banner = () => {
                 </div>
               </a>
             </div>
-            <div class="flex ml-[160px] mt-6 flex-col bg-[#193f80] w-64 p-2 rounded-lg gap-1">
+            <div class="flex ml-3 lg:ml-[50px] mt-10 lg:mt-6 flex-col bg-[#193f80] w-64 p-2 rounded-lg gap-1">
               <a class="bg-[#225bc3] flex items-center justify-center gap-2 font-roboto hover:bg-[#2564da] hover:scale-[1.065] hover:translate-y-[-7px] hover:rounded-lg hover:rounded-bl-none hover:rounded-br-none px-6 py-2 rounded-2xl rounded-bl-lg rounded-br-lg transition-all text-center text-[#d8e5f9] hover:text-[#a8c1f0] font-medium cursor-pointer">
                 <BiLogoGmail />: robileo49@gmail.com
               </a>
@@ -75,13 +74,12 @@ const Banner = () => {
               </a>
             </div>
           </div>
-          <div className="rightSide">
-            {/* <!-- From Uiverse.io by janisar-hyder -->  */}
+          <div className="rightSide ">
             <p class="browser-warning">
               If this looks wonky to you it's because this browser doesn't
               support the CSS property 'aspect-ratio'.
             </p>
-            <div class="stack">
+            <div class="stack p-2 lg:ml-0 ml-10">
               <div class="card">
                 <div class="image flex justify-center">
                   <img

@@ -5,7 +5,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const PortFolio = () => {
   return (
-    <section id="portFolio" className="mt-10 pb-12">
+    <section className="mt-10 pb-12">
       <div className="container">
         <div className="">
           <h2 className="text-[38px] text-center font-bold font-funnel text-white">
@@ -15,9 +15,9 @@ const PortFolio = () => {
             {MyWorks.map((item) => (
               <div
                 key={item.id}
-                className="mt-6 p-3 rounded-lg shadow-yellow-600 shadow flex flex-col gap-3 bg-[#66515186]"
+                className="mt-6 lg:w-[575px] md:w-[560px] w-[90%] p-3 rounded-lg shadow-yellow-600 shadow flex flex-col gap-3 bg-[#66515186]"
               >
-                <div className="duration-300 h-[300px] overflow-hidden  md:w-[540px] lg:w-[550px] w-[270px]">
+                <div className="duration-300 h-[300px] overflow-hidden md:w-[540px] lg:w-[550px] w-[100%]">
                   <img
                     className="rounded-lg h-full w-full object-cover"
                     src={item.Image}
